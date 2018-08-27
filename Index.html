@@ -30,23 +30,11 @@
 			<hr>
 			<section>
 				<fieldset>
-					<legend>Contacto</legend>
-					<form method ="post" action="gardar.php ">
-						<label>Nombre: &nbsp </label>
-						<input type="text" name="nombre" required placeholder="nombre completo">
-						<br>
-						<br>
-						<label>Correo: &nbsp </label>
-						<input type="email" name="nombre" required placeholder="tucorreo@server.com">
-						<br>
-						<br>
-						<label>Comentarios: &nbsp </label>
-						<textarea></textarea>
-						<br>
-						<br>
-						<input id="enviar" type="submit" value="enviar">
-						<input id="cancelar" type="reset" value="cancelar">
-					</form>
+					<h1>Video de muestra</h1>
+					<video width="320" height="240" controls>
+  						<source src="AdiosDulcinea.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
 
 				</fieldset>
 
@@ -75,7 +63,34 @@
 
 				</article>
 			</section>
-	
+			<section>
+				<fieldset>
+					<legend>Registrate</legend>
+					<form method ="post" action="gardar.php ">
+						<label>Nombre: &nbsp </label>
+						<input type="text" name="nombre" required placeholder="nombre completo">
+						<br>
+						<br>
+						<label>Apellido P: &nbsp </label>
+						<input type="text" name="apellidop" required 
+						placeholder="Apellido Paterno">
+						<br>
+						<br>
+						<label>Apellido M: &nbsp </label>
+						<input type="text" name="apellidom" required placeholder="Apellido Materno">
+						<br>
+						<br>
+						<label>Correo: &nbsp </label>
+						<input type="email" name="nombre" required placeholder="tucorreo@server.com">
+						<br>
+						<br>
+						<input id="enviar" type="submit" value="enviar">
+						<input id="cancelar" type="reset" value="cancelar">
+					</form>
+
+				</fieldset>
+
+			</section>	
 	
 	</div>
 </body>
