@@ -2,28 +2,81 @@
 <html>
 <head>
 	<meta charset="utf8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<title>AcordesFacilito</title>
 </head>
 <body>
 	<header>
-		<img src="logo.jpeg" title="logo">
-		<h1>Acordes Facilito</h1>
+		<div align="center"><img src="logo.jpeg" title="logo" width="200" height="100"></div>
+		<div align="center"><h1>Acordes Facilito</h1></div>
 	</header>
 	<nav>
 		<ul>
 			<li><a href="#">Inicio</a></li>
-			<li><a href="about.html#">About</a></li>
-			<li><a href="blog.html#">Blog</a></li>
-			<li><a href="multimedia.html#">Multimedia</a></li>
-			<li><a href="redessociales.html#">Redes Sociales</a>
+			<li><a href="Acercade.html#">Acerca de</a></li>
+			<li><a href="Videos.html#">Videos</a></li>
+			<li><a href="PDFs.html#">PDFs</a></li>
+			<li><a href="Redessociales.html#">Redes Sociales</a>
 			<ul>
 				<li>Facebook</li>
-				<li>Twitter</li>
 			</ul>
 			</li>
 		</ul>
 	</nav>
+	<div id="contenido">
+		<h2>BIENVENIDO</h2>
+			<p>Aqui podras encontrar contenido</p>
+			<p>para aprender tus canciones favoritas</p>
+			<p>videos, tutoriales, pdf con tus canciones</p>	
+			<hr>
+			<section>
+				<fieldset>
+					<legend>Contacto</legend>
+					<form method ="post" action="gardar.php ">
+						<label>Nombre: &nbsp </label>
+						<input type="text" name="nombre" required placeholder="nombre completo">
+						<br>
+						<br>
+						<label>Correo: &nbsp </label>
+						<input type="email" name="nombre" required placeholder="tucorreo@server.com">
+						<br>
+						<br>
+						<label>Comentarios: &nbsp </label>
+						<textarea></textarea>
+						<br>
+						<br>
+						<input id="enviar" type="submit" value="enviar">
+						<input id="cancelar" type="reset" value="cancelar">
+					</form>
+
+				</fieldset>
+
+			</section>	
+			<section id="sitio">
+				<article class="sitios">
+					<h2>Aprender CSS3</h2>
+					<p>Las hojas de estilos en cascadas (CSS) son un lenguaje utilizado para describir el aspecto visual de una página web o cualquier aplicación virtual. Usando CSS podemos cambiar colores, margenes, bordes, tipografias, fondos, y mucho más. El contenido de este curso gratuito de CSS3 desde Cero consolidará las Fundaciones CSS desde las más básicas hasta un nivel muy avanzado.</p>
+
+				</article>
+				<article class="sitios">
+					<h2>Crea tu propia WEB</h2>
+					<img src="portada.png">
+				</article>
+				<article class="sitios">
+					<h2>Colores en la WEB</h2> 
+					<fieldset>
+						<legend>Encuentra tu color</legend>
+						<form>
+							<label>Selecciona tu color</label>
+							<input type="color">
+							<br>
+							<input type="submit" value="Buscar color">
+						</form>
+					</fieldset>
+
+				</article>
+			</section>
+	
+	
+	</div>
 </body>
 </html>
