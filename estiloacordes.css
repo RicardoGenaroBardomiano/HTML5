@@ -1,0 +1,163 @@
+		header{
+
+			width:100%;
+			height: 200px;
+			border: 5px double #ff2626; 
+			border-radius: 5px;
+			background: #000000;
+			margin: 10px auto	0px;
+
+		}
+		header img{
+			display: inline-block;
+			width:150px;
+			height: 150px;  
+			margin-top: 25px;
+			margin-left: 50px;
+			position: absolute;
+
+		}
+		header h1{
+			display: inline-block;
+			margin-left: 100px;
+			margin-top: 10px;
+			position: absolute center;
+			color: #303F9F;
+			font-size: 4em;
+			font-family: "Georgia";
+			text-shadow:2px 3px 1px #E8EAF6;			
+			transition-property: color ,text-shadow;
+			transition-duration:1s,1.5s;
+			-webkit-transition:color 1s;
+			-moz-transition:color 1s;
+
+		}
+		header h1:hover{
+			color:#ffffff;
+			text-shadow:4px 4px 4px #303F9F;
+			font-size: 5em;
+		}
+		#contenido{
+			width: 85%;
+			height: auto;
+			margin: 0px auto 0px;
+
+		}
+		#contenido h2{
+			color: #000000;
+			font-size: 2em;
+			font-family: 'ARIAL', cursive;
+			text-align: center;
+			text-shadow:2px 4px 4px #0ad4db;
+
+		}
+		#contenido h2:hover{
+			font-size: 2.2em;
+		}
+		#contenido p{
+			font-size: 1em;
+			font-family: 'Abel', sans-serif;
+			text-align: center;
+			font-weight: bold;
+			
+		}
+		hr{
+			width: 900px;
+			height: 20px;
+			background: #303F9F;
+			border-radius: 5px;
+		}
+		#contenidovideo section{
+			width: 960;
+			height: auto;
+			background: #ff32ff;
+			margin-top: 5px;
+		}
+		#contenidovideo h1{
+			color: #ffffff;
+			font-size: 1em;
+			font-family: 'ARIAL', cursive;
+			text-shadow:2px 4px 1px #000000;
+		}
+		#contenidovideo h6{
+			color: #d6c7d6;
+			font-size: 1em;
+			text-decoration: black underline overline wavy;
+			font-family: 'ARIAL', cursive;
+		}
+		#contenidoacordes section{
+			width: 960;
+			height: auto;
+			background: #2b1bd6;
+			margin-top: 5px;
+		}
+		#contenidoacordes p{
+			font-size: 1em;
+			color: #ffffff;
+			font-family: 'Abel', sans-serif;
+			text-align: center;
+			font-weight: bold;
+			
+		}
+		#contenidoacordes img{
+			display:block;
+			margin:auto;
+			width:150px;
+			height: 150px;  
+			margin-top: 25px;
+			margin-left: 50px;	
+		}
+		#contenidoacordes img:hover{
+			display: inline-block;
+			width:300px;
+			height: 300px;  
+			margin-top: 25px;
+			margin-left: 50px;	
+		}
+		#contenidoregistro section{
+			width: 960;
+			height: auto;
+			background: #1ad6cc;
+			margin-top: 5px;
+		}
+		#contenidoregistro label{
+			font-size: 2em;
+			color: #000000;
+			font-family: 'AR DECODE';
+			text-align: center;
+			font-weight: bold;
+			
+		}
+		#contenidoregistro legend{
+			font-size: 3em;
+			color: #000000;
+			font-family: 'AR DECODE';
+			text-align: center;
+			font-weight: bold;
+			
+		}
+		#contenidoregistro input{
+			font-size: 1em;
+			color: #000000;
+			font-family: 'AR DECODE';
+			font-weight: bold;
+			
+		}
+		#contenidoregistro input:hover{
+			font-size: 2em;
+			color: #000000;
+			font-family: 'AR DECODE';
+			font-weight: bold;
+			
+		}
+		footer{
+			width: 100%;
+			height: 50px;
+			color: #fff;
+			padding-top: 5px;
+			background: #000;
+			margin: 0px auto 5px;
+			text-align: center;
+			font-size: 1em;
+
+		}
